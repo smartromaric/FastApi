@@ -12,13 +12,27 @@ class ModelName(str,Enum):
     lenet = 'lenet'
 
 
+class Item(BaseModel):
+    name:str
+    description : Union[str,None] = None
+    price : float
+    tax : Union[float,None] = None
+
+
+
 db = [{"item_name":"foo"},{"item_name":"anicet"},{"item_name":"jojo"}]
 
 
 app = FastAPI()
 
 
-
+@app.post("/items_/")
+async def create_item(item:Item):
+    item_dict = item.dict()
+    if item_dict.tax :
+        prices_with_tax = item_dict.price +item_dict.tax
+        item_dict.update({"price_with_tax" : prices_with_tax})
+    return item
 
 @app.get('/')
 async def root():
@@ -36,14 +50,6 @@ async def read_user_item(
 ):
     item = {"item_id": item_id, "needy": needy, "skip": skip, "limit": limit}
     return item
-# @app.get("/items/{item_id}")
-# async def read_item(item_id:str,q:Union[str,None] = None,short:bool = False):
-#     item = {"item" : item_id}
-#     if q:
-#         item.update({"q":q})
-#     if not short:
-#         item.update({"description":"this is a amazing item but have a long description"})
-#     return {'item_id':item}
 
 @app.get("/users")
 async def read_users():
