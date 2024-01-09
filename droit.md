@@ -53,12 +53,12 @@ est ce que une IA est une invention??
 doit respect les conditions  de brevetabilite 
 est ce que L'IA est toujours une solution technique a un probleme technique
 //solution appliquer a un systeme de suivie des signaux cardiaque ... a ete admis comme solution inventatif.
-// invenif-reveleve pas de l'evidence 
+// inventif-reveleve pas de l'evidence 
 cyclope societe africain qui eu un bevet sur une IA.
 
 est ce que l'oeuvre cree par l'IA est proteger ??
 les ouevre  creer par une IA n'est pas figer donc sa depend.
-//systeme de billet trie 
+//systeme de billetrie 
 // si une IA commet un delit ou un crime les responsabilité ne sont pas claire une divergence entre le createur et le responsable.
 //se demander trjs kl est l'object a proteger?
 
@@ -174,13 +174,13 @@ avant de collecter la donner il ya des regles a respecter:
     -sous lapplicztion de la loi
 
 1- la phase de collecte des donnes 
-    etzpe initiale , phase d'access aux donnes.
+    etape initiale , phase d'access aux donnes.
     ens de condition:
     - la raison  d'etre du traitement // objectif clair - legitime -determine 
     - quelle information a collecter(la pertinace) // info exacte 
     et apres faire une demande d'autorisation
     sinon TD illicite.
-    -informer et objetinir la collecte des personne
+    -informer et obtenir la collecte des personnes
 2- exploiation des donnees 
 //deux ou trois finalite max
 
